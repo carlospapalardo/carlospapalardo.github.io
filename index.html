@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Carlos Papalardo</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Papalardo</a>
+
+            <div class="div nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-heart nav__icon'></i>
+                            Início
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>
+                            Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book-open nav__icon'></i>
+                            Formação
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>
+                            Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>
+                            Experiência
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>
+                            Certificações
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="div nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt nav__icon'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        
+        <!-- Todos os elementos dessa div são para gerar o pdf -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+
+                <!-- Home -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/foto.jpg" alt="Imagem de perfil" class="home__img">
+
+                            <h1 class="home__title">
+                                <b>CARLOS</b> PAPALARDO
+                                <h3 class="home__profession">Azure Solutions Architect / MCSA / MCSE / VCP-DCV / ITIL v3</h3>
+                            </h1>
+                        </div>
+
+                        <div class="home_address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map-pin home__icon'></i>
+                                Itaboraí, RJ
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i>
+                                carlospapalardo@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i>
+                                +55 (21) 97118-7355
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Botão de tema light/dark -->
+                    <i class='bx bx-moon change-theme' title= "Tema Claro/Escuro" id= "theme-button"></i>
+
+                    <!-- Botão para gerar o pdf -->
+                    <i class='bx bx-download generate-pdf' title= "Baixar Currículo em PDF" id= "resume-button"></i>
+
+                </section>
+
+                <!-- Social -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+
+                        <a href="https://github.com/carlospapalardo" target= "_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i>
+                            carlospapalardo
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/carlospapalardo/" target= "_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>
+                            carlospapalardo
+                        </a>
+
+                    </div>
+                </section>
+
+                <!-- Perfil -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+
+                    <p class="profile__description">
+                        Certificado pelos produtos: Microsoft, VMware e ITIL.
+                        Com o perfil de Administrador de Infraestrutura.
+                    </p>
+                </section>
+
+                <!-- Educação -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Formação</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Pós-graduado MIT em Engenharia de Rede</h3>
+                                <span class="education__studies">Instituto Infnet</span>
+                                <span class="education__year">2012 - 2014</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Graduação de Análise de Sistema</h3>
+                                <span class="education__studies">Universidade Salgado de Oliveira</span>
+                                <span class="education__year">2007 - 2011</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Técnico Processamento de Dados</h3>
+                                <span class="education__studies">Colégio de Aplicação João Baptista Cáffaro</span>
+                                <span class="education__year">1996 - 2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Certificações -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Certificações</h2>
+
+                    <p class="profile__description">
+                        <li>Azure Solutions Architect</li>
+                        <li>Azure Security Engineer Associate</li>
+                        <li>Azure Administrator Associate</li>
+                        <li>Azure Fundamentals</li>
+                        <li>VMware VCP-DCV 2019</li>
+                        <li>MCSA: Windows Server 2016</li>
+                        <li>VMware VCP-DCV 6.0</li>
+                        <li>MCSE: Cloud Platform and Infrastruture</li>
+                        <li>MCSE: Private Cloud</li>
+                        <li>MCSA: Windows Server 2012</li>
+                        <li>MCP</li>
+                        <li>ITIL v3 Foundation</li>
+                    </p>
+                </section>
+
+                <!-- Habilidades -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Azure
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>AWS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Windows Server
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>VMware
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Gestão de Incidente
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Redes TCP/IP
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Scripts
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Automação
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Monitoramento
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Análise de Causa
+                            </li>
+                        </ul>
+                    </div>
+
+                    <h2 class="section-title">Soft Skills</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Trabalho em Equipe
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Mentalidade de Crescimento
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Auto Desenvolvimento
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Comunicação
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Proatividade
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Persistência
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <div class="resume__right">
+                <!-- Experiências -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiência</h2>
+
+                    <div class="experience__container bd-grid">
+
+                        <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Analista de Suporte Sênior</h3>
+                                    <span class="experience__company">IT-One Tecnologia da Informação</span>
+                                    <span class="experience__working">2019 - Atual</span>
+                                    <p class="experience__description">
+                                        Operação e sustentação em ambientes de datacenter e em nuvem pública.
+                                        Virtualização de estruturas e administração de servidores Microsoft.
+                                        Atuação em todos as etapas da gestão de incidentes.
+                                        Elaboração de documentação para base de conhecimento e de gerencia de mudanças.
+                                        Auxilio nos atendimentos de primeiro e segundo nível. 
+                                        Análise de causa raiz e execução de mudanças e correções em ambientes.
+                                        Participações em projeto para implantação e melhorias de infraestrutura.
+                                        Tecnologias utilizadas:
+                                        Microsoft Windows Server 2012-2019: Active Directory, Serviço de Acesso Remoto, DHCP, DNS, DFS, NPS, Scripts para Automatização de Tarefas. 
+                                        Monitoramento com Microsoft System Center Operations Manager 2019.
+                                        VMware 6.5-7.0: ESXi, vCenter, vRealize Log Insight, vRealize Operations Manager
+                                        Conhecimentos avançados em Redes TCP/IP.
+                                        Conhecimentos no ciclo de vida do gerenciamento de serviços de TI.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Analista de Suporte Windows Pleno</h3>
+                                    <span class="experience__company">Equinix Brasil</span>
+                                    <span class="experience__working">2013 - 2019</span>
+                                    <p class="experience__description">
+                                        Gerenciamento de serviço para os clientes com alocação de estrutura no datacenter.
+                                        Suporte a aplicações e sistemas operacionais Microsoft.
+                                        Suporte a infraestrutura virtual em servidores Microsoft e VMware.
+                                        Gestão de segurança e controle de acesso.
+                                        Analise, recomendações e ajustes conforme melhores práticas dos fornecedores.
+                                        Tecnologias utilizadas:
+                                        Microsoft Windows Server 2008-2016: Active Directory, Serviço de Acesso Remoto, DHCP, DNS, DFS, NPS, Scripts para Automatização de Tarefas. 
+                                        VMware 5.5-6.5: ESXi, vCenter, Site Recovery Manager, vCloud Director
+                                        Infraestrutura de Banco de dados SQL Server 2008-2012 Standalone ou em Cluster
+                                        Servidores Dell e HPE
+                                        Ferramentas de Backup Commvault e Arcserve.
+                                        Conhecimentos intermediários em Redes TCP/IP.
+                                        Conhecimentos no ciclo de vida do gerenciamento de serviços de TI.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Técnico de Suporte de Informática</h3>
+                                    <span class="experience__company">Universidade Salgado de Oliveira</span>
+                                    <span class="experience__working">2005 - 2013</span>
+                                    <p class="experience__description">
+                                        Instalação e Configuração de Computadores/Servidores Windows e Linux. 
+                                        Implantação e Manutenção de Redes (Wired, Wireless). 
+                                        Gestão e padronização de salas de informática.
+                                        Gestão de usuários, grupos, controle de acesso a diretórios e aplicações.
+                                        Auxilio na utilização das aplicações e ferramentas nos setores e a alunos da instituição.
+                                        Tecnologia utilizadas:
+                                        Microsoft Windows Server 2008R2: Active Directory, DNS, DHCP, Servidor de Arquivos, Servidor de Aplicativos, Controle de Contas e Cota de Usuário, Servidor WSUS, Diretivas de Grupo). 
+                                        Linux Debian: Proxy Squid, Firewall Iptables, Controle de Acesso, Controle de Largura de Banda, Relatórios de Rede e Squid com WebAlizer e Sarg, Servidor SSH. 
+                                        Gerenciamento de Antivirus (Kaspersky).
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Técnico de Hardware</h3>
+                                    <span class="experience__company">Novis.com Informática & Cia</span>
+                                    <span class="experience__working">2005 - 2005</span>
+                                    <p class="experience__description">
+                                        Instalação e Configuração de Computadores e Ativos de Redes,
+                                        Instalação e Atualização de Softwares e Hardwares.
+                                        Suporte Técnico a Clientes.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Técnico de Informática</h3>
+                                    <span class="experience__company">Autônomo</span>
+                                    <span class="experience__working">2003 - 2005</span>
+                                    <p class="experience__description">
+                                        Montagem e Manutenção de Computadores e Servidores Windows.
+                                        Implantação e Manutenção de Redes Cabeadas.
+                                        Instalação e Atualização de Softwares e Hardwares.
+                                        Prestador de Serviços em: Escritórios de Contabilidades, Escolas, 
+                                        Prefeituras, Consultórios e Laboratórios Médicos, Comércios em Geral.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Operador de computador</h3>
+                                    <span class="experience__company">Revepil - Revendedora de Veículos e Peças Pinho Ltda</span>
+                                    <span class="experience__working">2001 - 2002</span>
+                                    <p class="experience__description">
+                                        Administração de toda Infraestrutura de Informática e Ativos de Redes, 
+                                        Administração de Servidores de Rede Novell.
+                                    </p>
+                                </div>        
+                            </div>
+                    </div>
+                </section>
+
+                <!-- Linguagens -->
+                <section class="languages section">
+                    <h2 class="section-title">Idiomas</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Português | Nativo
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Inglês | Técnico
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- Rolar a tela pra cima -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up-circle scrolltop__icon'></i>
+    </a>
+
+    <!-- HTML/PDF -->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
