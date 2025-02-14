@@ -1,2 +1,1 @@
-# carlospapalardo.github.io
-Curriculo
+# Curriculo
